@@ -27,6 +27,7 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test -- --configuration=ci
+      #TODO: See if its possible to remove either npm run build, or ng build from deploy gh pages action
       - name: Angular Deploy gh-pages Actions
         # You may pin to the exact commit or the version.
         # uses: AhsanAyaz/angular-deploy-gh-pages-actions@0e4f1a953d00116ca38fbf1bcdb37f91923015ef
@@ -43,7 +44,7 @@ jobs:
           # branch on which the angular build will be deployed
           #deploy_branch: # optional, default is gh-pages
           # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
-          # angular_dist_build_folder: dist/MonkeySwing # optional, default is dist
+          angular_dist_build_folder: dist/MonkeySwing # optional, default is dist
           # If the action should run 'ng lint'
           # run_lint: # optional
           # Will not fail the step if anything fails
