@@ -20,8 +20,7 @@
     "lint:tslint": "tsc",
     "lint:prettier": "prettier -c ./src",
     "lint:prettier:fix": "prettier -w ./src",
-    "lint:ci": "yarn lint",
-    "prepare": "husky install"
+    "lint:ci": "yarn lint"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -30,6 +29,7 @@
     "@mui/lab": "^5.0.0-alpha.63",
     "@mui/material": "^5.2.7",
     "@mui/x-data-grid": "^5.2.2",
+    "@mui/x-date-pickers": "^6.9.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -41,6 +41,7 @@
     "cron-parser": "^4.7.1",
     "dayjs": "^1.10.7",
     "i18n-iso-countries": "^7.5.0",
+    "jose": "^4.15.1",
     "lodash": "^4.17.21",
     "material-ui-confirm": "^3.0.3",
     "react": "^17.0.2",
