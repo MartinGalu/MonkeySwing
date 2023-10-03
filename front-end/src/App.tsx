@@ -8,9 +8,9 @@ import { queryClient } from './config';
 import { DashPage } from './components/DashPage';
 import { theme } from './theme';
 import { PageNotFound404 } from './components/PageNotFound404';
-import { LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import { ConfirmProvider } from 'material-ui-confirm';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+import { LocalizationProvider } from '@mui/x-date-pickers';
 import { HomePage } from './pages/HomePage';
 import { CompPage } from './pages/CompPage';
 import { LoginPage } from './pages/LoginPage';

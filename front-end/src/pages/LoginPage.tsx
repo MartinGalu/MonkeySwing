@@ -4,7 +4,6 @@ import { Alert, Avatar, Box, Typography, Container } from '@mui/material';
 import LoadingButton from '@mui/lab/LoadingButton';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { CredentialResponse, GoogleLogin } from '@react-oauth/google';
-import {decodeJwt} from 'jose';
 import { useLogin } from 'src/hooks/auth';
 
 // import { Copyright } from '../components/Copyright';
